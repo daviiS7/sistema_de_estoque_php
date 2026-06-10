@@ -1,4 +1,4 @@
-# DW Sistema
+# Sistema de Estoque
 
 Sistema web de controle de estoque desenvolvido em PHP utilizando arquitetura MVC (Model-View-Controller), com foco em organização, manutenção e gerenciamento eficiente de produtos.
 
