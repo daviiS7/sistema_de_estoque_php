@@ -1,0 +1,115 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Tahoma, Arial, sans-serif;
+}
+
+body{
+    background:#e9edf2;
+}
+
+/* CONTAINER */
+.container{
+    width:95%;
+    max-width:900px;
+    margin:20px auto;
+    background:#fff;
+    padding:25px 30px;
+    border-radius:6px;
+    box-shadow:0 2px 10px rgba(0,0,0,0.15);
+}
+
+/* TÍTULO */
+h1{
+    margin-bottom:20px;
+    color:#1c2d4a;
+    font-size:22px;
+    border-bottom:2px solid #1c2d4a;
+    padding-bottom:10px;
+}
+
+/* INFO DO PRODUTO */
+.info-produto{
+    background:#f7f8fa;
+    border:1px solid #d8dde5;
+    padding:15px;
+    border-radius:6px;
+    margin-bottom:20px;
+}
+
+.info-produto p{
+    margin-bottom:6px;
+    color:#1c2d4a;
+    font-size:14px;
+    font-weight:bold;
+}
+
+/* LINHAS */
+.row{
+    display:flex;
+    gap:15px;
+    margin-bottom:15px;
+}
+
+/* CAMPOS */
+.campo{
+    flex:1;
+}
+
+.campo label{
+    display:block;
+    margin-bottom:6px;
+    font-weight:bold;
+    color:#1c2d4a;
+    font-size:13px;
+}
+
+.campo input,
+.campo select{
+    width:100%;
+    padding:10px;
+    border:1px solid #bfc7d1;
+    border-radius:4px;
+    font-size:14px;
+    background:#fff;
+}
+
+.campo input:focus,
+.campo select:focus{
+    outline:none;
+    border-color:#1c2d4a;
+    box-shadow:0 0 3px rgba(28,45,74,0.3);
+}
+
+/* BOTÃO */
+.botoes{
+    margin-top:25px;
+    display:flex;
+    justify-content:flex-end;
+}
+
+.salvar{
+    background:#FF7700;
+    color:white;
+    border:none;
+    padding:10px 25px;
+    border-radius:4px;
+    cursor:pointer;
+    font-size:14px;
+    font-weight:bold;
+}
+
+.salvar:hover{
+    opacity:.9;
+}
+
+/* ERRO */
+.erro{
+    background:#f8d7da;
+    color:#842029;
+    padding:12px;
+    border-radius:4px;
+    margin-bottom:15px;
+    font-size:14px;
+}
